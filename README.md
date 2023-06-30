@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Prabhanjanmisra/fem-product-preview-card)
-- Live Site URL: [](https://prabhanjanmisra.github.io/fem-product-preview-card/)
+- Solution URL: [Repository](https://github.com/Prabhanjanmisra/fem-product-preview-card)
+- Live Site URL: [Live site](https://prabhanjanmisra.github.io/fem-product-preview-card/)
 
 ## My process
 
