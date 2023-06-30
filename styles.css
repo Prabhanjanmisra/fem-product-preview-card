@@ -1,0 +1,133 @@
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+}
+
+h2 {
+    color: #3c8067;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    height: 450px;
+    width: 600px;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.desktop-img {
+    height: 450px;
+    width: 300px;
+    object-fit: contain;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.text-box {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.price-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.price-1 {
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+.btn {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#my-img {
+    height: 40px;
+    border-radius: 20px;
+    opacity: 90%;
+}
+
+#my-img:hover {
+    opacity: 100%;
+}
+
+#hidden {
+    opacity: 0;
+}
+
+#hidden:hover {
+    opacity: 100%;
+}
+
+
+@media only screen and (max-width: 400px) {
+    
+    .container {
+        padding: 20px;
+    }
+    
+    .card-container {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 355px;
+        height: fit-content;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 355px;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+
+}
