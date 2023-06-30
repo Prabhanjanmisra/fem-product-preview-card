@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/Prabhanjanmisra/fem-product-preview-card)
+- Live Site URL: [](https://prabhanjanmisra.github.io/fem-product-preview-card/)
 
 ## My process
 
@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Prabhanjanmisra](https://www.frontendmentor.io/profile/Prabhanjanmisra)
 
 
